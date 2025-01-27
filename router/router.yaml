@@ -32,6 +32,13 @@ subscription:
 persisted_queries:
   enabled: true
   safelist:
+  
+coprocessor:
+  url: https://coprocessor-wn3vwa6nlq-ue.a.run.app
+  timeout: 2s
+  router:
+    response:
+      body: true
     enabled: false
     require_id: false
 apq:
